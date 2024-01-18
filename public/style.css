@@ -1,0 +1,62 @@
+
+
+.body-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    height: 1500px;
+    width: 1400px;
+    background-color: #f4f4f4;
+   
+}
+.nav-container{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-around;
+    width: 1000px;
+}
+
+.colorful-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid #3498db; /* Border color */
+    color: #fff; /* Text color */
+    background-color: #3498db; /* Background color */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth color transition */
+    cursor: pointer;
+  }
+  .colorful-button:hover {
+    background-color: #2980b9; /* New background color on hover */
+  }
+
+
+  .forms{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  a {
+    text-decoration: none; /* Remove default underline */
+    color: #3498db; /* Default text color */
+    transition: color 0.3s ease; /* Smooth color transition */
+  }
+
+  /* Hover effect for the anchor */
+  a:hover {
+    color: #2980b9; /* New text color on hover */
+    text-decoration: underline; /* Underline effect on hover */
+    
+  }
+
+  .list-col{
+
+  }
